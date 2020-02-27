@@ -18,6 +18,7 @@ class Element
 		Element(std::string name);
 	//This means that Stack can access directly to Element's private members
 	friend class Stack;
+	friend class Menu;
 };
 
 #endif /* ELEMENT_H_ */
